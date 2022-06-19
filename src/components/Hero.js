@@ -22,7 +22,7 @@ class Hero extends React.Component {
           <br /> insights on how your links are performing.
         </h2>
         <Link
-          className="get-started-button"
+          className="getStartedButton"
           activeClass="active"
           to="input"
           spy={true}
