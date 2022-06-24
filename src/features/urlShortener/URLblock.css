@@ -1,0 +1,47 @@
+.urlBlock {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  background-color: #fff;
+}
+
+.urlBlock p {
+  margin: 0;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-overflow: ellipsis;
+}
+
+.originalUrl {
+  margin-right: 54%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.shortenedUrl {
+  color: hsl(180, 66%, 49%);
+}
+
+.copyButton {
+  width: 100px;
+  padding: 8px;
+  margin: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.copyButton:hover {
+  cursor: pointer;
+}
+
+.deleteButton {
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  width: unset;
+  margin: 0;
+  position: absolute;
+  right: 140px;
+}
